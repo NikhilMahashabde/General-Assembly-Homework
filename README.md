@@ -21,12 +21,11 @@ You need to do this every time you're submitting homework.
   - `git pull upstream master` - merge changes that have been made to this repository into your own local repository (if a weird screen appears on this step, PLEASE SEE THE **IMPORTANT 2** NOTED BELOW).
   - `git push origin master`
 - **Once you're finished, submit a pull request for me to accept your homework**
-  - Navigate to your forked version of this repository on Github (eg [https://github.com/{YOUR_USERNAME_HERE}/SEIC57-homework](https://github.com/{YOUR_USERNAME_HERE}/SEIC57-homework)).
+  - Navigate to your forked version of this repository on Github (eg [https://github.com/{YOUR_USERNAME_HERE}/homework-students](https://github.com/{YOUR_USERNAME_HERE}/SEIC57-homework)).
   - Hit the **Pull request** button.
-  - Make sure the destination for the pull request is set to my repository, not your own or anyone else's.
+  - Make sure the destination for the pull request is set to this organisation (seifxr11anz/homework-students), not your own or anyone else's.
   * **IMPORTANT:**
-    In the pull request comment, tell me the following:
-    "1. How difficult did you find this (out of 10)? (0 being no problems at all, 10 being impossible); 2. Was there anything that you struggled with?; 3. Is there anything that you'd like some further information on?; 4. Roughly how long did it take?"
+    Fill in the pull request description questions (automatically populated with template questions when you create the pull request)
     **If you don't mention anything in the Pull Request comments, we will assume you had no problems at all with it, and you will receive no feedback about your homework.**
     If you want to follow up on any issues you had with the homework, the ideal time for that will be during the more unstructured lab time after lunch - come and see Joel or myself then and we can go over any outstanding questions.
     **Note:** if I haven't yet merged your Pull Request into my main homework repo before it's time to submit the next day's homework, you won't be able to create a new Pull Request. That's okay - for the new homework just add a new comment to the open (existing) Pull Request, featuring the same four points given above to describe your response to it.
