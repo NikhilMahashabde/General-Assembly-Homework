@@ -18,8 +18,8 @@ You need to do this every time you're submitting homework.
   - `git add .`
   - `git commit -m "YOUR_COMMIT_MESSAGE_GOES_HERE"`(where `YOUR_COMMIT_MESSAGE_GOES_HERE` is your description of the work you are committing)
 - **Push your changes to your forked repository**
-  - `git pull upstream main` - merge changes that have been made to this repository into your own local repository (if a weird screen appears on this step, PLEASE SEE THE **IMPORTANT 2** NOTED BELOW).
-  - `git push origin main`
+  - `git pull upstream master` - merge changes that have been made to this repository into your own local repository (if a weird screen appears on this step, PLEASE SEE THE **IMPORTANT 2** NOTED BELOW).
+  - `git push origin master`
 - **Once you're finished, submit a pull request for me to accept your homework**
   - Navigate to your forked version of this repository on Github (eg [https://github.com/{YOUR_USERNAME_HERE}/SEIC57-homework](https://github.com/{YOUR_USERNAME_HERE}/SEIC57-homework)).
   - Hit the **Pull request** button.
@@ -31,4 +31,4 @@ You need to do this every time you're submitting homework.
     If you want to follow up on any issues you had with the homework, the ideal time for that will be during the more unstructured lab time after lunch - come and see Joel or myself then and we can go over any outstanding questions.
     **Note:** if I haven't yet merged your Pull Request into my main homework repo before it's time to submit the next day's homework, you won't be able to create a new Pull Request. That's okay - for the new homework just add a new comment to the open (existing) Pull Request, featuring the same four points given above to describe your response to it.
   * **IMPORTANT 2:**
-    When you make pull request by `git pull upstream main`, git might generate the auto merge message for you. Don't panic! Just type `:wq` (it will weirdly appear on the bottom left of your screen once you start typing) and hit `return` key on your keyboard to accept the message, then you can move on with you life!
+    When you make pull request by `git pull upstream masster`, git might generate the auto merge message for you. Don't panic! Just type `:wq` (it will weirdly appear on the bottom left of your screen once you start typing) and hit `return` key on your keyboard to accept the message, then you can move on with you life!
