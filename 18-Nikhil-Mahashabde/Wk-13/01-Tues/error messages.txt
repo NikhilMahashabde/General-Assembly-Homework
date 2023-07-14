@@ -1,0 +1,142 @@
+
+    Uncaught SyntaxError: Unexpected token {
+
+    unexpected opening curly brace that was not expected. 
+
+<script>
+// Code goes here
+
+document.createElementById({id)
+
+</script>
+
+
+
+    Uncaught ReferenceError: greeting is not defined
+
+    variable is not defined that the code is attempting to access its mem locaiton. 
+
+<script>
+const dog = "dog"
+console.log(doga)
+</script>
+
+
+
+    GET https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/1.0.0/js/bootstrap.min.js 404 (Not Found)
+
+    Just provide an explanation only for this one (no need for example code)
+
+client ried to access this route but could not foind the resource/s at this route or not availbable. 
+
+
+    Uncaught TypeError: "hello".push is not a function
+
+   Hello is a string in JS and does not have a push method associated in its prototype.
+
+
+<script>
+// Code goes here
+</script>
+
+
+
+    Uncaught TypeError: str.join is not a function
+
+    str i assume is a string and does not have join as a method avaiable. Str woulld need to be a string array. 
+
+<script>
+const strArr = 'hi'
+strArr.join('. ss')
+</script>
+
+
+
+    Uncaught TypeError: Cannot read properties of undefined (reading 'name')
+
+   variable name has been initialised as either undefined or not initalised at all .
+
+
+<script>
+const name; or const name = undefined
+console.log(name)
+// Code goes here
+</script>
+
+
+
+    Uncaught SyntaxError: missing ) after argument list
+
+    a ) has been forgotten. 
+
+<script>
+console.log('hi'
+// Code goes here
+</script>
+
+
+
+    Uncaught ReferenceError: Invalid left-hand side in assignment
+
+    incorrect left side argument e.g. const or trying to overwrite a non changeable variable/ref etc .
+
+<script>
+const a = 5;
+a = 10;
+</script>
+
+
+
+    Uncaught SyntaxError: Unexpected number
+
+    incorrect useage of number that cannot be evaluated.. missing comparator etc. 
+
+<script>
+if (4),
+console.log(4)
+</script>
+
+
+
+    Uncaught SyntaxError: Unexpected string
+
+    similair to above, missing a comparator or cannot be evalutated
+
+    
+
+<script>
+if ("hello) {
+    console.log(x)
+}
+</script>
+
+
+
+    Uncaught SyntaxError: Unexpected identifier
+
+    confusion between two lines of code caused by for example, forgetting a : or usinsg reserved keywords.. 
+
+<script>
+const a = {
+    b, 
+    c
+}
+}
+</script>
+
+
+
+    Uncaught RangeError: Maximum call stack size exceeded
+    stack overflow... infinate logic or neverending loop. reference to previous call build up in call stack and overflow. 
+
+    Explanation goes here
+
+<script>
+
+function repeat (a) {
+
+    repeat(a)
+
+}
+// Code goes here
+</script>
